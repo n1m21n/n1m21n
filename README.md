@@ -35,18 +35,10 @@
   </a>
 </div>
 
----
-
-### Connected by Nature
+<br/>
 
 <div align="center">
-  <a href="https://n1m21n.github.io/Infinite/#about">
-    <img src="connected-by-nature-animated.svg" alt="Connected by Nature Animated Graph" width="100%" />
-  </a>
-  <br/><br/>
-  <a href="https://n1m21n.github.io/Infinite/#about">
-    <img src="https://img.shields.io/badge/Interactive%20Graph-Drag%20%26%20Rearrange%20Nodes%20Live-c2593f?style=for-the-badge" alt="Drag and Rearrange Nodes Live" />
-  </a>
+  <img src="connected-by-nature.svg" alt="Connected by Nature" width="100%" />
 </div>
 
 ---
