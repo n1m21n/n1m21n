@@ -35,19 +35,71 @@
   </a>
 </div>
 
-<br/>
+---
 
-<div align="center">
-  <img src="connected-by-nature.svg" alt="Connected by Nature" width="100%" />
-</div>
+### Connected by Nature
+
+```mermaid
+flowchart LR
+    subgraph Audio [" "]
+        Sound(["Sound"]):::sound
+        Music(["Music"]):::music
+    end
+
+    subgraph Core [" "]
+        Physics(["Physics"]):::physics
+        Math(["Math"]):::math
+        Art(["Art"]):::art
+    end
+
+    subgraph Visual [" "]
+        Light(["Light"]):::light
+        Motion(["Motion"]):::motion
+        Geometry(["Geometry"]):::geometry
+        Color(["Color"]):::color
+    end
+
+    Sound --- Physics
+    Sound --- Music
+    Sound --- Art
+    Music --- Math
+    Music --- Art
+    Physics --- Math
+    Physics --- Art
+    Physics --- Light
+    Math --- Motion
+    Math --- Art
+    Art --- Light
+    Art --- Motion
+    Art --- Geometry
+    Art --- Color
+    Light --- Geometry
+    Light --- Color
+    Light --- Motion
+    Motion --- Color
+    Geometry --- Color
+
+    classDef sound fill:#c2593f,stroke:#ffffff,stroke-width:1.5px,color:#ffffff;
+    classDef music fill:#d97736,stroke:#ffffff,stroke-width:1.5px,color:#ffffff;
+    classDef physics fill:#5a6b7c,stroke:#ffffff,stroke-width:1.5px,color:#ffffff;
+    classDef math fill:#c2593f,stroke:#ffffff,stroke-width:1.5px,color:#ffffff;
+    classDef art fill:#b8860b,stroke:#ffffff,stroke-width:2px,color:#ffffff;
+    classDef light fill:#d97736,stroke:#ffffff,stroke-width:1.5px,color:#ffffff;
+    classDef motion fill:#2563eb,stroke:#ffffff,stroke-width:1.5px,color:#ffffff;
+    classDef geometry fill:#4d7c67,stroke:#ffffff,stroke-width:1.5px,color:#ffffff;
+    classDef color fill:#6b6b99,stroke:#ffffff,stroke-width:1.5px,color:#ffffff;
+```
 
 ---
 
-### GitHub Activity
+### 3D Contribution Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=n1m21n&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=n1m21n&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg">
+    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-season.svg">
+    <img src="profile-3d-contrib/profile-night-view.svg" alt="3D GitHub Contribution Activity" width="100%">
+  </picture>
 </div>
 
 ---
