@@ -41,23 +41,15 @@
 
 ```mermaid
 flowchart LR
-    subgraph Audio [" "]
-        Sound(["Sound"]):::sound
-        Music(["Music"]):::music
-    end
-
-    subgraph Core [" "]
-        Physics(["Physics"]):::physics
-        Math(["Math"]):::math
-        Art(["Art"]):::art
-    end
-
-    subgraph Visual [" "]
-        Light(["Light"]):::light
-        Motion(["Motion"]):::motion
-        Geometry(["Geometry"]):::geometry
-        Color(["Color"]):::color
-    end
+    Sound(["Sound"]):::sound
+    Music(["Music"]):::music
+    Physics(["Physics"]):::physics
+    Math(["Math"]):::math
+    Art(["Art"]):::art
+    Light(["Light"]):::light
+    Motion(["Motion"]):::motion
+    Geometry(["Geometry"]):::geometry
+    Color(["Color"]):::color
 
     Sound --- Physics
     Sound --- Music
