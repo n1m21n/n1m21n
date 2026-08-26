@@ -39,48 +39,15 @@
 
 ### Connected by Nature
 
-```mermaid
-flowchart LR
-    Sound(["Sound"]):::sound
-    Music(["Music"]):::music
-    Physics(["Physics"]):::physics
-    Math(["Math"]):::math
-    Art(["Art"]):::art
-    Light(["Light"]):::light
-    Motion(["Motion"]):::motion
-    Geometry(["Geometry"]):::geometry
-    Color(["Color"]):::color
-
-    Sound --- Physics
-    Sound --- Music
-    Sound --- Art
-    Music --- Math
-    Music --- Art
-    Physics --- Math
-    Physics --- Art
-    Physics --- Light
-    Math --- Motion
-    Math --- Art
-    Art --- Light
-    Art --- Motion
-    Art --- Geometry
-    Art --- Color
-    Light --- Geometry
-    Light --- Color
-    Light --- Motion
-    Motion --- Color
-    Geometry --- Color
-
-    classDef sound fill:#c2593f,stroke:#ffffff,stroke-width:1.5px,color:#ffffff;
-    classDef music fill:#d97736,stroke:#ffffff,stroke-width:1.5px,color:#ffffff;
-    classDef physics fill:#5a6b7c,stroke:#ffffff,stroke-width:1.5px,color:#ffffff;
-    classDef math fill:#c2593f,stroke:#ffffff,stroke-width:1.5px,color:#ffffff;
-    classDef art fill:#b8860b,stroke:#ffffff,stroke-width:2px,color:#ffffff;
-    classDef light fill:#d97736,stroke:#ffffff,stroke-width:1.5px,color:#ffffff;
-    classDef motion fill:#2563eb,stroke:#ffffff,stroke-width:1.5px,color:#ffffff;
-    classDef geometry fill:#4d7c67,stroke:#ffffff,stroke-width:1.5px,color:#ffffff;
-    classDef color fill:#6b6b99,stroke:#ffffff,stroke-width:1.5px,color:#ffffff;
-```
+<div align="center">
+  <a href="https://n1m21n.github.io/Infinite/#about">
+    <img src="connected-by-nature-animated.svg" alt="Connected by Nature Animated Graph" width="100%" />
+  </a>
+  <br/><br/>
+  <a href="https://n1m21n.github.io/Infinite/#about">
+    <img src="https://img.shields.io/badge/Interactive%20Graph-Drag%20%26%20Rearrange%20Nodes%20Live-c2593f?style=for-the-badge" alt="Drag and Rearrange Nodes Live" />
+  </a>
+</div>
 
 ---
 

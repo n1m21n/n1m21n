@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 430" width="100%" height="100%">
+  <defs>
+    <style>
+      .title-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; font-size: 26px; font-weight: 700; }
+      .cursive-text { font-family: 'Caveat', 'Brush Script MT', 'Segoe Script', cursive, sans-serif; font-size: 32px; font-weight: 600; font-style: italic; fill: #c2593f; }
+      .node-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; }
+      .grid-dot { fill: rgba(150, 150, 150, 0.12); }
+      .line-primary { stroke: rgba(160, 160, 160, 0.28); stroke-width: 1.2; }
+      .line-secondary { stroke: rgba(160, 160, 160, 0.12); stroke-width: 0.9; }
+      
+      @media (prefers-color-scheme: dark) {
+        .bg-rect { fill: #0d1117; stroke: rgba(255, 255, 255, 0.1); }
+        .title-text { fill: #f0f6fc; }
+        .node-pill { fill: #161b22; stroke: rgba(255, 255, 255, 0.15); }
+        .node-label { fill: #e6edf3; }
+        .line-primary { stroke: rgba(200, 200, 200, 0.22); }
+        .line-secondary { stroke: rgba(200, 200, 200, 0.08); }
+        .grid-dot { fill: rgba(255, 255, 255, 0.07); }
+      }
+      @media (prefers-color-scheme: light) {
+        .bg-rect { fill: #fbfaf6; stroke: rgba(45, 35, 25, 0.1); }
+        .title-text { fill: #1f1d1a; }
+        .node-pill { fill: #ffffff; stroke: rgba(45, 35, 25, 0.12); }
+        .node-label { fill: #1f1d1a; }
+        .line-primary { stroke: rgba(45, 35, 25, 0.20); }
+        .line-secondary { stroke: rgba(45, 35, 25, 0.08); }
+        .grid-dot { fill: rgba(45, 35, 25, 0.06); }
+      }
+
+      /* Harmonic Organic Floating Animations */
+      @keyframes float1 { 0%, 100% { transform: translate(0px, 0px); } 50% { transform: translate(8px, -12px); } }
+      @keyframes float2 { 0%, 100% { transform: translate(0px, 0px); } 50% { transform: translate(-10px, 10px); } }
+      @keyframes float3 { 0%, 100% { transform: translate(0px, 0px); } 50% { transform: translate(12px, 8px); } }
+      @keyframes float4 { 0%, 100% { transform: translate(0px, 0px); } 50% { transform: translate(-8px, -10px); } }
+      @keyframes pulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.9; } }
+
+      .node-float-1 { animation: float1 6.5s ease-in-out infinite; }
+      .node-float-2 { animation: float2 7.8s ease-in-out infinite; }
+      .node-float-3 { animation: float3 8.2s ease-in-out infinite; }
+      .node-float-4 { animation: float4 7.0s ease-in-out infinite; }
+      .pulse-anim { animation: pulse 3s ease-in-out infinite; }
+    </style>
+    <filter id="shadow" x="-8%" y="-20%" width="120%" height="150%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background Card -->
+  <rect class="bg-rect" width="880" height="430" rx="16" stroke-width="1"/>
+
+  <!-- Dot Grid Pattern -->
+  <g>
+    <circle cx="50" cy="50" r="1.2" class="grid-dot"/><circle cx="110" cy="50" r="1.2" class="grid-dot"/><circle cx="170" cy="50" r="1.2" class="grid-dot"/><circle cx="230" cy="50" r="1.2" class="grid-dot"/><circle cx="290" cy="50" r="1.2" class="grid-dot"/><circle cx="350" cy="50" r="1.2" class="grid-dot"/><circle cx="410" cy="50" r="1.2" class="grid-dot"/><circle cx="470" cy="50" r="1.2" class="grid-dot"/><circle cx="530" cy="50" r="1.2" class="grid-dot"/><circle cx="590" cy="50" r="1.2" class="grid-dot"/><circle cx="650" cy="50" r="1.2" class="grid-dot"/><circle cx="710" cy="50" r="1.2" class="grid-dot"/><circle cx="770" cy="50" r="1.2" class="grid-dot"/><circle cx="830" cy="50" r="1.2" class="grid-dot"/>
+    <circle cx="50" cy="110" r="1.2" class="grid-dot"/><circle cx="170" cy="110" r="1.2" class="grid-dot"/><circle cx="230" cy="110" r="1.2" class="grid-dot"/><circle cx="290" cy="110" r="1.2" class="grid-dot"/><circle cx="350" cy="110" r="1.2" class="grid-dot"/><circle cx="410" cy="110" r="1.2" class="grid-dot"/><circle cx="470" cy="110" r="1.2" class="grid-dot"/><circle cx="530" cy="110" r="1.2" class="grid-dot"/><circle cx="590" cy="110" r="1.2" class="grid-dot"/><circle cx="650" cy="110" r="1.2" class="grid-dot"/><circle cx="710" cy="110" r="1.2" class="grid-dot"/><circle cx="830" cy="110" r="1.2" class="grid-dot"/>
+    <circle cx="50" cy="170" r="1.2" class="grid-dot"/><circle cx="170" cy="170" r="1.2" class="grid-dot"/><circle cx="230" cy="170" r="1.2" class="grid-dot"/><circle cx="350" cy="170" r="1.2" class="grid-dot"/><circle cx="410" cy="170" r="1.2" class="grid-dot"/><circle cx="470" cy="170" r="1.2" class="grid-dot"/><circle cx="530" cy="170" r="1.2" class="grid-dot"/><circle cx="650" cy="170" r="1.2" class="grid-dot"/><circle cx="710" cy="170" r="1.2" class="grid-dot"/><circle cx="830" cy="170" r="1.2" class="grid-dot"/>
+    <circle cx="50" cy="230" r="1.2" class="grid-dot"/><circle cx="110" cy="230" r="1.2" class="grid-dot"/><circle cx="170" cy="230" r="1.2" class="grid-dot"/><circle cx="230" cy="230" r="1.2" class="grid-dot"/><circle cx="290" cy="230" r="1.2" class="grid-dot"/><circle cx="350" cy="230" r="1.2" class="grid-dot"/><circle cx="530" cy="230" r="1.2" class="grid-dot"/><circle cx="590" cy="230" r="1.2" class="grid-dot"/><circle cx="650" cy="230" r="1.2" class="grid-dot"/><circle cx="710" cy="230" r="1.2" class="grid-dot"/><circle cx="770" cy="230" r="1.2" class="grid-dot"/><circle cx="830" cy="230" r="1.2" class="grid-dot"/>
+    <circle cx="50" cy="290" r="1.2" class="grid-dot"/><circle cx="170" cy="290" r="1.2" class="grid-dot"/><circle cx="230" cy="290" r="1.2" class="grid-dot"/><circle cx="350" cy="290" r="1.2" class="grid-dot"/><circle cx="410" cy="290" r="1.2" class="grid-dot"/><circle cx="470" cy="290" r="1.2" class="grid-dot"/><circle cx="530" cy="290" r="1.2" class="grid-dot"/><circle cx="650" cy="290" r="1.2" class="grid-dot"/><circle cx="710" cy="290" r="1.2" class="grid-dot"/><circle cx="830" cy="290" r="1.2" class="grid-dot"/>
+    <circle cx="50" cy="350" r="1.2" class="grid-dot"/><circle cx="170" cy="350" r="1.2" class="grid-dot"/><circle cx="230" cy="350" r="1.2" class="grid-dot"/><circle cx="350" cy="350" r="1.2" class="grid-dot"/><circle cx="410" cy="350" r="1.2" class="grid-dot"/><circle cx="470" cy="350" r="1.2" class="grid-dot"/><circle cx="530" cy="350" r="1.2" class="grid-dot"/><circle cx="650" cy="350" r="1.2" class="grid-dot"/><circle cx="710" cy="350" r="1.2" class="grid-dot"/><circle cx="830" cy="350" r="1.2" class="grid-dot"/>
+    <circle cx="50" cy="400" r="1.2" class="grid-dot"/><circle cx="110" cy="400" r="1.2" class="grid-dot"/><circle cx="170" cy="400" r="1.2" class="grid-dot"/><circle cx="230" cy="400" r="1.2" class="grid-dot"/><circle cx="290" cy="400" r="1.2" class="grid-dot"/><circle cx="350" cy="400" r="1.2" class="grid-dot"/><circle cx="410" cy="400" r="1.2" class="grid-dot"/><circle cx="470" cy="400" r="1.2" class="grid-dot"/><circle cx="530" cy="400" r="1.2" class="grid-dot"/><circle cx="590" cy="400" r="1.2" class="grid-dot"/><circle cx="650" cy="400" r="1.2" class="grid-dot"/><circle cx="710" cy="400" r="1.2" class="grid-dot"/><circle cx="770" cy="400" r="1.2" class="grid-dot"/><circle cx="830" cy="400" r="1.2" class="grid-dot"/>
+  </g>
+
+  <!-- Header Title -->
+  <text x="440" y="52" text-anchor="middle">
+    <tspan class="title-text">Connected by </tspan>
+    <tspan class="cursive-text">Nature</tspan>
+  </text>
+
+  <!-- Connecting Mesh Lines -->
+  <g>
+    <line x1="105" y1="165" x2="620" y2="350" class="line-secondary"/>
+    <line x1="105" y1="165" x2="775" y2="360" class="line-secondary"/>
+    <line x1="95" y1="345" x2="615" y2="190" class="line-secondary"/>
+    <line x1="95" y1="345" x2="770" y2="150" class="line-secondary"/>
+    <line x1="260" y1="190" x2="775" y2="360" class="line-secondary"/>
+    <line x1="285" y1="350" x2="770" y2="150" class="line-secondary"/>
+    <line x1="260" y1="190" x2="620" y2="350" class="line-secondary"/>
+    <line x1="285" y1="350" x2="615" y2="190" class="line-secondary"/>
+
+    <line x1="105" y1="165" x2="95" y2="345" class="line-primary"/>
+    <line x1="105" y1="165" x2="260" y2="190" class="line-primary"/>
+    <line x1="105" y1="165" x2="440" y2="245" class="line-primary"/>
+    <line x1="95" y1="345" x2="285" y2="350" class="line-primary"/>
+    <line x1="260" y1="190" x2="285" y2="350" class="line-primary"/>
+    <line x1="260" y1="190" x2="440" y2="245" class="line-primary"/>
+    <line x1="285" y1="350" x2="440" y2="245" class="line-primary"/>
+    <line x1="285" y1="350" x2="620" y2="350" class="line-primary"/>
+    <line x1="440" y1="245" x2="615" y2="190" class="line-primary"/>
+    <line x1="440" y1="245" x2="620" y2="350" class="line-primary"/>
+    <line x1="440" y1="245" x2="770" y2="150" class="line-primary"/>
+    <line x1="440" y1="245" x2="775" y2="360" class="line-primary"/>
+    <line x1="615" y1="190" x2="770" y2="150" class="line-primary"/>
+    <line x1="615" y1="190" x2="775" y2="360" class="line-primary"/>
+    <line x1="620" y1="350" x2="775" y2="360" class="line-primary"/>
+    <line x1="770" y1="150" x2="775" y2="360" class="line-primary"/>
+  </g>
+
+  <!-- Constellation Pulses & Small Particles -->
+  <g class="pulse-anim">
+    <circle cx="160" cy="174" r="2.5" fill="#c2593f"/>
+    <circle cx="100" cy="245" r="2.2" fill="#d97736"/>
+    <circle cx="190" cy="348" r="2.5" fill="#c2593f"/>
+    <circle cx="270" cy="265" r="2.8" fill="#5a6b7c"/>
+    <circle cx="340" cy="215" r="2.2" fill="#5a6b7c"/>
+    <circle cx="360" cy="295" r="2.5" fill="#c2593f"/>
+    <circle cx="485" cy="272" r="3.0" fill="#b8860b"/>
+    <circle cx="530" cy="216" r="2.2" fill="#d97736"/>
+    <circle cx="550" cy="305" r="2.6" fill="#c2593f"/>
+    <circle cx="530" cy="350" r="2.4" fill="#2563eb"/>
+    <circle cx="690" cy="168" r="2.5" fill="#d97736"/>
+    <circle cx="705" cy="155" r="2.2" fill="#4d7c67"/>
+    <circle cx="700" cy="355" r="2.6" fill="#2563eb"/>
+    <circle cx="773" cy="250" r="2.4" fill="#4d7c67"/>
+    <circle cx="617" cy="275" r="2.2" fill="#2563eb"/>
+  </g>
+
+  <!-- Animated Floating Node Badges -->
+  
+  <!-- 1. Sound -->
+  <g class="node-float-1" transform="translate(62, 148)" filter="url(#shadow)">
+    <rect class="node-pill" width="86" height="34" rx="17" stroke-width="1"/>
+    <circle cx="18" cy="17" r="5" fill="#c2593f"/>
+    <text class="node-label" x="30" y="22">Sound</text>
+  </g>
+
+  <!-- 2. Music -->
+  <g class="node-float-2" transform="translate(54, 328)" filter="url(#shadow)">
+    <rect class="node-pill" width="82" height="34" rx="17" stroke-width="1"/>
+    <circle cx="18" cy="17" r="5" fill="#d97736"/>
+    <text class="node-label" x="30" y="22">Music</text>
+  </g>
+
+  <!-- 3. Physics -->
+  <g class="node-float-3" transform="translate(214, 173)" filter="url(#shadow)">
+    <rect class="node-pill" width="92" height="34" rx="17" stroke-width="1"/>
+    <circle cx="18" cy="17" r="5" fill="#5a6b7c"/>
+    <text class="node-label" x="30" y="22">Physics</text>
+  </g>
+
+  <!-- 4. Math -->
+  <g class="node-float-4" transform="translate(247, 333)" filter="url(#shadow)">
+    <rect class="node-pill" width="76" height="34" rx="17" stroke-width="1"/>
+    <circle cx="18" cy="17" r="5" fill="#c2593f"/>
+    <text class="node-label" x="30" y="22">Math</text>
+  </g>
+
+  <!-- 5. Art (Center) -->
+  <g class="node-float-1" transform="translate(407, 228)" filter="url(#shadow)">
+    <rect class="node-pill" width="66" height="34" rx="17" stroke-width="1"/>
+    <circle cx="18" cy="17" r="5" fill="#b8860b"/>
+    <text class="node-label" x="30" y="22">Art</text>
+  </g>
+
+  <!-- 6. Light -->
+  <g class="node-float-2" transform="translate(576, 173)" filter="url(#shadow)">
+    <rect class="node-pill" width="78" height="34" rx="17" stroke-width="1"/>
+    <circle cx="18" cy="17" r="5" fill="#d97736"/>
+    <text class="node-label" x="30" y="22">Light</text>
+  </g>
+
+  <!-- 7. Motion -->
+  <g class="node-float-3" transform="translate(575, 333)" filter="url(#shadow)">
+    <rect class="node-pill" width="90" height="34" rx="17" stroke-width="1"/>
+    <circle cx="18" cy="17" r="5" fill="#2563eb"/>
+    <text class="node-label" x="30" y="22">Motion</text>
+  </g>
+
+  <!-- 8. Geometry -->
+  <g class="node-float-4" transform="translate(718, 133)" filter="url(#shadow)">
+    <rect class="node-pill" width="104" height="34" rx="17" stroke-width="1"/>
+    <circle cx="18" cy="17" r="5" fill="#4d7c67"/>
+    <text class="node-label" x="30" y="22">Geometry</text>
+  </g>
+
+  <!-- 9. Color -->
+  <g class="node-float-1" transform="translate(737, 343)" filter="url(#shadow)">
+    <rect class="node-pill" width="76" height="34" rx="17" stroke-width="1"/>
+    <circle cx="18" cy="17" r="5" fill="#6b6b99"/>
+    <text class="node-label" x="30" y="22">Color</text>
+  </g>
+</svg>
