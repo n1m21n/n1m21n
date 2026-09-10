@@ -84,6 +84,20 @@ flowchart LR
 
 ---
 
+### Star History
+
+<div align="center">
+  <a href="https://star-history.com/#n1m21n/Infinite&Date">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=n1m21n/Infinite&type=Date&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=n1m21n/Infinite&type=Date" />
+      <img src="https://api.star-history.com/svg?repos=n1m21n/Infinite&type=Date" alt="Star History Chart for n1m21n/Infinite" width="100%" />
+    </picture>
+  </a>
+</div>
+
+---
+
 ### Contribution Activity
 
 <div align="center">
