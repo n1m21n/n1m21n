@@ -1,39 +1,73 @@
 <div align="center">
 
-  <a href="https://github.com/n1m21n/Infinite">
-    <img src="https://raw.githubusercontent.com/n1m21n/Infinite/main/website/assets/icon.png" width="90" height="90" alt="Infinite Icon" style="border-radius: 20px; margin-bottom: 12px;" />
+  <a href="https://naman.infinitedevices.org">
+    <img src="https://raw.githubusercontent.com/n1m21n/Infinite/main/website/assets/icon.png" width="96" height="96" alt="Naman Soni (n1m21n)" style="border-radius: 22px; margin-bottom: 14px; box-shadow: 0 8px 32px rgba(0,0,0,0.4);" />
   </a>
 
-  <h1>hi, i'm naman <span style="font-weight: 300;">(n1m21n)</span></h1>
+  <h1>naman soni <span style="font-weight: 300;">(n1m21n)</span></h1>
 
   <p>
-    <strong>musician • visual artist • creative technologist</strong>
+    <strong>electronic music producer • visual artist • audiovisual systems architect</strong>
   </p>
 
   <p>
-    <em>"crafting open-source instruments where sound, art, and geometry connect."</em>
+    <em>"crafting modular soundscapes, raw algorithmic synthesis, and subterranean electronic music."</em>
   </p>
 
   <p>
-    <a href="https://discord.gg/wpKdexvhn"><img src="https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-    <a href="https://x.com/n1m21n"><img src="https://img.shields.io/badge/X-@n1m21n-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" /></a>
-    <a href="https://instagram.com/n1m21n"><img src="https://img.shields.io/badge/Instagram-@n1m21n-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+    <a href="https://naman.infinitedevices.org"><img src="https://img.shields.io/badge/3D%20Spatial%20Room-naman.infinitedevices.org-6992F6?style=for-the-badge&logo=three.js&logoColor=white" alt="Spatial Room" /></a>
+    <a href="https://open.spotify.com/artist/3gugf7oQFbrPsTpNT8EsBO"><img src="https://img.shields.io/badge/Spotify-Artist%20Profile-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" /></a>
+    <a href="https://music.apple.com/in/artist/naman/1705841663"><img src="https://img.shields.io/badge/Apple%20Music-Listen-FA243C?style=for-the-badge&logo=apple-music&logoColor=white" alt="Apple Music" /></a>
+    <a href="https://n1m21n.bandcamp.com/"><img src="https://img.shields.io/badge/Bandcamp-Discography-1DA0C3?style=for-the-badge&logo=bandcamp&logoColor=white" alt="Bandcamp" /></a>
   </p>
 
 </div>
 
 ---
 
-### What I'm Building: [Infinite](https://github.com/n1m21n/Infinite)
+### The Producer & The Instrument
 
-> **A unified node-based audiovisual modular workstation for macOS and Windows.**  
+> **"I build my own instruments, write my own DSP kernels, and compose across the outer edges of electronic music."**  
+> Every track across my 15-album discography was produced using self-engineered modular systems, custom per-sample DSP algorithms, and **[Infinite](https://github.com/n1m21n/Infinite)** — the open-source audiovisual DAW I built from scratch in C++20 and OpenGL to bridge modular sound synthesis and real-time visual generation on a single infinite canvas.
+
+---
+
+### Discography Matrix (15 Studio Albums)
+
+A cult discography spanning intricate IDM, industrial braindance, dark ambient claustrophobia, and microtonal modular synthesis:
+
+| Album | Year | Sonic Archetype | Key Tracks | Listen |
+| :--- | :---: | :--- | :--- | :---: |
+| **Andhera** | 2026 | Dark IDM, nocturnal vocal decay & distorted sub-bass | *Bring Me Some Change*, *Teri Aankhon Mein*, *Ek Pinjare Mai* | [Spotify](https://open.spotify.com/album/7GFHbn0YZzXIO0SNy5b9kF) • [Apple](https://music.apple.com/in/album/andhera-ep/6768245318) • [Bandcamp](https://n1m21n.bandcamp.com/album/andhera) |
+| **Redhand** | 2025 | 160 BPM industrial braindance & metallic modular percussion | *Bad Record*, *Hypnotic*, *Third Degree*, *After Life* | [Spotify](https://open.spotify.com/album/6soWGXV1ZAk86SUCcP9IuM) • [Apple](https://music.apple.com/in/album/redhand/1864736290) • [Bandcamp](https://n1m21n.bandcamp.com/album/redhand) |
+| **Paranoia** | 2025 | Dark ambient claustrophobia & raw algorithmic textures | *Birth of Light*, *Pretty Trauma*, *Strangled*, *The Creator* | [Spotify](https://open.spotify.com/album/2fhTKEeKJVWbcszPSHSqTD) • [Apple](https://music.apple.com/in/album/paranoia/1844956850) • [Bandcamp](https://n1m21n.bandcamp.com/album/paranoia) |
+| **Awakened** | 2024 | Microtonal modular arpeggios & polyrhythmic FM | *Flux*, *Chronome*, *Nexus*, *Lilith*, *Zylyte*, *Pyronation* | [Spotify](https://open.spotify.com/album/2yc3evZohmnhj3qvvHbyos) • [Apple](https://music.apple.com/in/album/awakened/1760902107) • [Bandcamp](https://n1m21n.bandcamp.com/album/awakened) |
+| **Synthetic Vision** | 2025 | Granular deconstruction & cinematic sensory illusions | *Collapse*, *Garden of Eyes*, *The Five Senses*, *Vision Is a Lie* | [Spotify](https://open.spotify.com/album/5sDvwsolVqP0pBNS5QGnZ6) • [Apple](https://music.apple.com/in/album/synthetic-vision/1820942202) • [Bandcamp](https://n1m21n.bandcamp.com/album/synthetic-vision) |
+| **Hiraku** | 2024 | 18 tracks of erratic generative sequencing & breakbeat alchemy | *Hiraku*, *Chrono*, *Mirage*, *Subsurface* | [Spotify](https://open.spotify.com/album/2gUNdwlBbVNPkNQxkWErFB) • [Apple](https://music.apple.com/in/album/hiraku/1753044580) • [Bandcamp](https://n1m21n.bandcamp.com/album/hiraku) |
+| **Godsdie** | 2025 | Crushed wave transients & storm-like bass dynamics | *Stonecry*, *Bloodrush*, *Wavecrush*, *Deepsync* | [Spotify](https://open.spotify.com/album/0UALYJdLPYodLfWVLLXk7G) • [Apple](https://music.apple.com/in/album/godsdie/1794224379) • [Bandcamp](https://n1m21n.bandcamp.com/album/godsdie) |
+| **Rehab** | 2024 | 24-track monolithic sound design journal & deep ambient | *Rehab*, *Isolation*, *Echo Chamber*, *Subterranean* | [Spotify](https://open.spotify.com/album/00WZ4TByBIbh91WWGbZ24N) • [Apple](https://music.apple.com/in/album/rehab/1742657978) • [Bandcamp](https://n1m21n.bandcamp.com/album/rehab) |
+| **Circle of Time** | 2024 | Spiralling jazz-infused electronic experiments | *Circle of Time*, *Vortex*, *Temporal Drift* | [Spotify](https://open.spotify.com/album/0pk1Q33gQS6jOd1KFdLNkc) • [Apple](https://music.apple.com/in/album/circle-of-time/1771179037) • [Bandcamp](https://n1m21n.bandcamp.com/album/circle-of-time-2) |
+| **Naked Space** | 2024 | Cosmic minimalism, solitary synth ballads & celestial echoes | *Naked Space*, *Zero Gravity*, *Starlight* | [Spotify](https://open.spotify.com/album/6Se0loyKIBy5Znzjwdg2dH) • [Apple](https://music.apple.com/in/album/naked-space/1795653113) • [Bandcamp](https://n1m21n.bandcamp.com/album/naked-space) |
+
+*Complete 15-album interactive 3D spatial experience available at [naman.infinitedevices.org](https://naman.infinitedevices.org).*
+
+---
+
+### The Workstation: [Infinite](https://github.com/n1m21n/Infinite)
+
+> **A unified node-based audiovisual modular workstation for macOS, Windows, and Linux.**  
 > Real-time GPU video shaders, procedural 3D geometry and simulations, and a full modular synthesizer rack with AU/VST3 plugin hosting — interconnected through a universal modulation graph.
 
 <div align="center">
   <a href="https://github.com/n1m21n/Infinite">
-    <img src="https://raw.githubusercontent.com/n1m21n/Infinite/main/docs/screenshot.png" alt="Infinite Node Canvas Screenshot" width="100%" />
+    <img src="https://raw.githubusercontent.com/n1m21n/Infinite/main/docs/screenshot.png" alt="Infinite Node Canvas Screenshot" width="100%" style="border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.5);" />
   </a>
 </div>
+
+- **Official Website**: [infinitedevices.org](https://infinitedevices.org)
+- **Headless CLI & Python SDK**: `pip install infinite-daw`
+- **MCP & UTCP Protocol**: `npx -y infinite-engine init` • [utcp.json](https://infinitedevices.org/utcp.json)
+- **Free Unlimited Sample Generator**: [infinitedevices.org/samples/](https://infinitedevices.org/samples/)
 
 ---
 
@@ -110,13 +144,17 @@ flowchart LR
 
 ---
 
-### Connect
+### Connect & Follow
 
-- Discord Community: [Join the Infinite Server](https://discord.gg/wpKdexvhn)
-- Twitter / X: [@n1m21n](https://x.com/n1m21n)
-- Instagram: [@n1m21n](https://instagram.com/n1m21n)
-- Email: namansoniiii21@gmail.com
+- **Spatial 3D Room & Discography**: [naman.infinitedevices.org](https://naman.infinitedevices.org)
+- **Spotify**: [Naman on Spotify](https://open.spotify.com/artist/3gugf7oQFbrPsTpNT8EsBO)
+- **Apple Music**: [Naman on Apple Music](https://music.apple.com/in/artist/naman/1705841663)
+- **Bandcamp**: [n1m21n.bandcamp.com](https://n1m21n.bandcamp.com/)
+- **Discord Community**: [Join the Infinite Server](https://discord.gg/wpKdexvhn)
+- **Twitter / X**: [@n1m21n](https://x.com/n1m21n)
+- **Instagram**: [@n1m21n](https://instagram.com/n1m21n)
+- **Email**: namansoniiii21@gmail.com
 
 <div align="center">
-  <sub>Designed with curiosity and passion for generative sound and computational art.</sub>
+  <sub>All music and software engineered by Naman Soni (n1m21n). Released under open and independent licences.</sub>
 </div>
